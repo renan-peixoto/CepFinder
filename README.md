@@ -77,7 +77,6 @@ No corpo da requisição coloque o id desejado e o que quer alterar. Por exemplo
 
 ```json
 {
-  "id": 1,
   "name": "nome-teste",
   "address": {
     "cep": "20020-100"
@@ -108,7 +107,7 @@ Terá como resultado:
 
 ### DELETE
 
- Para deleter um cliente clique em **PUT(/client/{id})** seguido de **Try it Out** e insira o id do cliente que será deletado.
+ Para deleter um cliente clique em **DELETE(/client/{id})** seguido de **Try it Out** e insira o id do cliente que será deletado.
 
 ## Referências
 
